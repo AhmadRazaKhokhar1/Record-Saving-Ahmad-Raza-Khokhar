@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+  margin: 0;
+}
+.header{
+  color: white;
+  background-color:#9980FA;
+  padding: 14px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding-right: 55px;
+}
+h5{
+  margin-right: 25px;
+}
+/* for color selectio go to flatui */
+
+.form{
+  margin-top:20px ;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+ width: 100%;
+ margin-top: 20px;  
+}
+.data_val{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow:3px 3px 4px 3px grey;
+  padding: 10px 50px;
+  align-items: center;
+  border-top: .5px solid grey;
+  margin-top: 5px;
+  transition: all 2s;
+}
+.cd{
+ border-radius: 12px;
+ display: flex;
+ box-shadow: 5px 5px 5px 3px rgba(245, 203, 203, 0.712);
+ margin-top: 10px;
+ border-top: .5px solid rgb(253, 166, 166);
+}
+
+body{
+  overflow-y: auto;
+  overflow-x: hidden ;
+}
+.dataCollection{
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px rgb(128, 128, 128);
+  width: 40%;
+  margin: 15px auto;
+  padding: 5px;
+}
+.footer{
+  width: 100%;
+  display: flex;
+ position: absolute;
+ margin-top: 100px;
+ background-color: rgb(119, 0, 255);
+ justify-content: space-around;
+ height: 50px;
+}
+.footerIcons{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.postImg{
+  width: 45px;
+  height: 45px;
+  border-radius: 37px;
+}
