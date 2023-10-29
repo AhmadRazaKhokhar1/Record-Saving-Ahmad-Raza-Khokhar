@@ -31,12 +31,7 @@ function App() {
     // Save data to local storage
     localStorage.setItem('data', JSON.stringify([...data, newData])) ;
   };
-  useEffect(() => {
-    const savedData = JSON.parse(localStorage.getItem('data'));
-    if (savedData) {
-      setData(savedData);
-    }
-  }, []);
+  
 
   const deletePostProp = (postIndex) => {
     const updatedData = data.filter((_, index) => index !== postIndex);
